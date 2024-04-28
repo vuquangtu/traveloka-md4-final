@@ -1,0 +1,31 @@
+.paymentNote {
+  width: 400px;
+  height: 400px;
+  background-image: url(https://png.pngtree.com/png-vector/20221128/ourmid/pngtree-cream-sticky-notes-paper-illustration-with-clip-white-transparent-background-png-image_6484210.png);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;
+  background-size: cover;
+  position: fixed;
+  top: 100px;
+  right: 10px;
+  padding: 120px 100px 80px 70px;
+  line-height: 20px;
+  text-align: justify;
+  color: red;
+  &-note {
+  }
+  div {
+    margin: 10px 0;
+  }
+  &-sub {
+    line-height: 20px;
+    font-weight: bold;
+    color: $traveloka-light-blue;
+  }
+  &-info {
+    line-height: 20px;
+    color: #000;
+    background-color: #fff;
+  }
+}

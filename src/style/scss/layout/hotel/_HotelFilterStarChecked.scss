@@ -1,0 +1,39 @@
+.hotelFilterStarChecked{
+    width: 298px;
+    min-height: 156px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    .row2-starGroup{
+        margin-top: 10px;
+        .group{
+            display: flex;
+            margin-bottom: 10px;
+            &:hover{
+                cursor: pointer;
+            }
+            input{
+                &:checked~.box-outline{
+                    background-color: $traveloka-light-blue;
+                }
+            }
+            .box-outline{
+                height: 20px;
+                padding: 4px;
+                width: 20px;
+                border: 1px solid rgb(104, 113, 118);
+                border-radius: 6px;
+                margin-right: 5px;
+            }
+            display: flex;
+            label{
+                cursor: pointer;
+                display: flex;
+            }
+        }
+    }
+}

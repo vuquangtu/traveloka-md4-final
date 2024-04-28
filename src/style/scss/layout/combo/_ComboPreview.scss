@@ -1,0 +1,73 @@
+.comboPreview-summary{
+    margin: 40px 0;
+    background-color: #fff;
+    border-radius: 10px;
+    width: 480px;
+    min-height: 150px;
+    padding: 16px;
+    &-header{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color: $traveloka-light-blue;
+    }
+    &-room{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    &-flight{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    &-total{
+        border-top:1px solid #dbdbdb;
+        padding: 16px 0;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        &-text{
+            font-size: 1.3rem;
+            font-weight: bold;
+            &-coupon{
+                display: flex;
+                font-size: 0.875rem;
+                line-height: 16px;
+                margin-top: 10px;
+                color: red;
+            }
+        }
+        &-money{
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            &-origin{
+                text-decoration-line: line-through ;
+            }
+            &-sell{
+                font-size: 1.3rem;
+                margin-top: 10px;
+                font-weight: bold;
+                color: $traveloka-orange;
+            }
+        }
+    }
+    &-confirm {
+        margin-top: 20px;
+        width: 448px;
+        height: 40px;
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        background-color: $traveloka-light-blue;
+        border-radius: 10px;
+        &:hover{
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+}

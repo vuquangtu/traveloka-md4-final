@@ -1,0 +1,88 @@
+@import "../base/buttons";
+
+$font-family: Roboto, sans-serif;
+
+.container-card {
+  border: none;
+  padding: 40px;
+  padding-bottom: 100px;
+  margin-bottom: 300px;
+  min-height: 300px;
+  position: relative;
+  box-sizing: inherit;
+  .card-body {
+    padding: 0;
+
+    .card-title {
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 500;
+      color: #4c4c4c;
+      font-family: $font-family;
+    }
+    .card-text {
+      padding: 10px 0;
+      font-family: $font-family;
+    }
+    .reg-form {
+      box-sizing: inherit;
+
+      i {
+        position: absolute;
+        color: #235d9f;
+      }
+
+      .form-label {
+        display: block;
+        margin-bottom: 10px;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+        color: #4c5052;
+        cursor: default;
+        font-weight: 500;
+        font-family: $font-family;
+      }
+
+      .input-error {
+        border-color: #ff5e1f;
+      }
+
+      input {
+        background-color: rgb(236, 248, 255);
+        display: block;
+        padding: 7px 0px 7px 29px;
+        font-size: 14px;
+        border: 1px solid #235d9f;
+        border-radius: 3px;
+        width: 100%;
+        margin-bottom: 16px;
+        line-height: 20.02px;
+
+        &:focus {
+          outline: none;
+          border-color: #8c9fba;
+        }
+        font-family: $font-family;
+      }
+      .error-message {
+        font-family: $font-family;
+        font-size: 14px;
+        color: #ff5e1f;
+        margin-top: 8px;
+      }
+      #btn-next {
+        @extend .button;
+      }
+      .icon {
+        padding: 10px;
+        min-width: 40px;
+      }
+    }
+  }
+}
+
+.error-message {
+  font-size: 14px;
+  color: #ff5e1f;
+  margin-bottom: 10px;
+}

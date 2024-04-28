@@ -1,0 +1,23 @@
+.hotelFilterSideBar {
+  width: 298px;
+  height: 600px;
+  position: sticky;
+  top: 150px;
+  &-container {
+    width: 298px;
+    height: 600px;
+    &-button {
+      width: 298px;
+      height: 40px;
+      margin-top: 10px;
+      background-color: $traveloka-light-blue;
+      border-radius: 10px;
+      font-weight: bold;
+      color: #fff;
+      &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    }
+  }
+}

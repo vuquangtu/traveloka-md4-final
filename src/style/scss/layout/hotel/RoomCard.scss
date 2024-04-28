@@ -1,0 +1,123 @@
+.roomCard{
+    height: 302px;
+    background-color: rgba(247, 249, 250, 1.00);
+    box-shadow: rgba(27, 27, 27, 0.1) 0px 1px 3px 0px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    &-row1{
+        height: 48px;
+        p{
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+    &-row2{
+        flex:1;
+        display: flex;
+        justify-content: space-between;
+        &-left{
+            width: 287px;
+            img{
+                height: 144px;
+                border-radius: 8px;
+                width: 287px;
+            }
+        }
+        &-right{
+            width: 721px;
+            &-card{
+                width: 721px;
+                height: 210px;
+                padding: 16px 24px;
+                border-radius: 8px;
+                background-color: #fff;
+                box-shadow: 0px 1px 2px rgba(3, 18, 26, 0.20);
+                display: flex;
+                flex-direction: column;
+                &-row1{
+                    height: 28px;
+                    border-bottom: 1px solid #dbdbdb;
+                    display: flex;
+                    &-left{
+                        display: flex;
+                        align-items: center;
+                            span {
+                                 font-size: 0.875rem;
+                                font-weight: bold;
+                            }   
+                    }
+                    
+                }
+                &-row2{
+                    display: flex;
+                    justify-content: space-between;
+                    flex:1;
+                    margin-top: 16px;
+                    &-left{
+                        width: 505px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        &-utility{
+                            width: 210px;
+                            height: 20px;
+                            font-size: 0.875rem;
+                            display: flex;
+                            color: rgb(0, 135, 90);
+                            align-items: center;
+                            margin-bottom: 10px;
+                            span{
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                    &-right{
+                        width: 168px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-end;
+                        justify-content: flex-end;
+                        &-originPrice{
+                            font-size: 0.75rem;
+                            color: rgba(104, 113, 118, 1.00);
+                            text-decoration: line-through;
+                            margin-bottom: 10px;
+                            font-weight: bold;
+                        }
+                        &-sellPrice{
+                            font-size: 1.3rem;
+                            font-weight: bold;
+                            color: $traveloka-orange;
+                            margin-bottom: 10px;
+                        }
+                        &-text{
+                            font-size: 0.75rem;
+                            color: rgba(104, 113, 118, 1.00);
+                            margin-bottom: 10px;
+                            font-weight: bold;
+                            display: flex;
+                        }
+                        &-button{
+                            button{
+                                width: 84px;
+                                height: 32px;
+                                border-radius: 8px;
+                                color: #fff;
+                                font-weight: bold;
+                                background-color: $traveloka-orange;
+                                font-size: 0.875rem;
+                                &:hover{
+                                    cursor: pointer;
+                                    opacity: 0.8;   
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

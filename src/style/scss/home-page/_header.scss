@@ -1,0 +1,63 @@
+.headerBackground{
+  width: 100vw;
+  position: fixed;
+  z-index: 50;
+  height: 60px;
+  top: 0;
+  background-image: linear-gradient(90deg, #1A2F78 0%, #1870C9 50%, #5195E3 100%);
+}
+.homepage-header {
+  position: fixed;
+  top:0;
+  display: flex;
+  z-index: 50;
+  &-container {
+    width: 1350px;
+    margin: 0 auto;
+    position: relative;
+
+    &-row {
+      display: flex;
+      &-logo {
+        position: relative;
+        left: 2%;
+        width: 16.66%;
+        padding-right: 4%;
+        color: #fff;
+        img {
+          width: 80%;
+        }
+      }
+      &-menu {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        white-space: nowrap;
+        padding-right: 26px;
+
+        ul {
+          display: flex;
+          justify-content: flex-end;
+
+          li {
+            list-style: none;
+            margin-right: 20px;
+            text-align: center;
+            width: 100%;
+
+            a {
+              text-decoration: none;
+              color: #fff;
+              display: inline-block;
+              cursor: pointer;
+            }
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

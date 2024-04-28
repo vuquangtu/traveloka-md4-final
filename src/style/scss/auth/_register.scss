@@ -1,0 +1,180 @@
+@import "../base/buttons";
+
+$font-app: "Roboto", "Arial", sans-serif;
+.flexbox {
+  background-color: #235d9f;
+  font-family: $font-app;
+
+  .container {
+    background: white;
+    border-radius: 6px;
+    padding: 0;
+    max-width: 380px;
+    .card {
+      border: none;
+      padding: 40px;
+      min-height: 600px;
+      position: relative;
+      box-sizing: inherit;
+      h3 {
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+        margin-top: 0;
+        box-sizing: inherit;
+      }
+      .card-body {
+        padding: 0;
+        .card-tittle {
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .reg-form {
+          box-sizing: inherit;
+
+          i {
+            position: absolute;
+            color: #235d9f;
+          }
+          .form-label {
+            display: block;
+            margin-bottom: 2px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            color: #4c5052;
+            cursor: default;
+            font-weight: 500;
+          }
+          .input-error {
+            border-color: #ff5e1f;
+          }
+          input {
+            background-color: rgb(236, 248, 255);
+            display: block;
+            padding: 7px 0px 7px 29px;
+            font-size: 14px;
+            border: 1px solid #235d9f;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 16px;
+            line-height: 20.02px;
+            &:focus {
+              outline: none;
+              border-color: #8c9fba;
+            }
+          }
+
+          .icon {
+            padding: 10px;
+            min-width: 40px;
+          }
+
+          .eye-icon {
+            position: absolute;
+            right: 50px;
+            transform: translate(0, -240%);
+            cursor: pointer;
+          }
+          .login-form-forgot {
+            width: 100%;
+            display: block;
+            margin-bottom: 16px;
+          }
+          #btn-next {
+            @extend .button;
+          }
+
+          .error-message {
+            font-family: $font-app;
+            font-size: 14px;
+            color: #ff5e1f;
+            margin-bottom: 10px;
+          }
+        }
+        p {
+          font-family: $font-app;
+          font-size: 14px;
+        }
+        .login-with {
+          margin-top: 10px;
+          display: flex;
+          flex-direction: column;
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            & a:hover {
+              color: #fff;
+            }
+
+            &:first-child {
+              background-color: transparent;
+              color: #ff5e1f; /* Màu cam */
+              border-color: #ff5e1f; /* Màu cam */
+
+              &:hover {
+                background-color: #ff5e1f;
+                color: #fff;
+              }
+            }
+
+            &:last-child {
+              background-color: transparent;
+              color: #4267b2;
+              border-color: #4267b2;
+
+              &:hover {
+                background-color: #4267b2;
+                color: #fff;
+              }
+            }
+
+            i {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .flexbox {
+    padding: 10px 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .card {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .eye-icon {
+    right: 20px;
+    transform: translate(0, -150%);
+  }
+
+  #btn-next {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,65 @@
+$primary-color: #000;
+$secondary-color: #333;
+$button-color: rgb(1, 148, 243);
+
+.passenger-list {
+  width: 40%;
+  font-family: Arial, sans-serif;
+  padding-left: 40px;
+
+  h2 {
+    font-size: 1.5em;
+    color: $primary-color;
+    font-weight: 550;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    margin-bottom: 1em;
+    white-space: nowrap;
+    font-weight: 550;
+    color: $secondary-color;
+  }
+
+  .passenger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(3, 18, 26, 0.2) 0px 3px 5px;
+    width: 140%;
+    border-radius: 5px;
+    padding: 1.5em 0;
+    margin-bottom: 2em;
+    padding-left: 15px;
+
+    span {
+      font-size: 1em;
+      color: black;
+      margin-right: 270px;
+      font-weight: 550;
+      white-space: nowrap;
+    }
+
+    button {
+      cursor: pointer;
+      color: $button-color;
+      text-decoration: none;
+      font-weight: 550;
+      white-space: nowrap;
+      padding-right: 15px;
+    }
+  }
+
+  .add-passenger {
+    font-weight: 700;
+    display: inline-block;
+    background-color: $button-color;
+    color: white;
+    padding: 0.7rem 1em;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+    width: 140%;
+    border-radius: 5px;
+  }
+}

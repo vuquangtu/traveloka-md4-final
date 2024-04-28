@@ -1,0 +1,96 @@
+.homepage-banner {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  background-image: url("https://www.leaders-in-law.com/wp-content/uploads/2020/05/vietnam.jpg");
+  background-size: cover;
+  background-blend-mode: color-burn;
+  &-container {
+    width: 1350px;
+    margin: 0 auto;
+    position: relative;
+    &-row1 {
+      display: flex;
+      &-col-empty {
+        width: 8.33%;
+      }
+      &-col-content {
+        width: 41.66%;
+        &-detail {
+          position: relative;
+          /*	left:8.33%;*/
+          top: 33.33vh;
+          color: #fff;
+          & h1 {
+            font-weight: 600;
+            font-size: 50px;
+            margin-bottom: 30px;
+          }
+          .btn {
+            margin-top: 50px;
+          }
+          .btn a {
+            text-decoration: none;
+            align-content: center;
+            color: white;
+            background: #00171f;
+            border-radius: 10px;
+            padding: 10px 20px;
+          }
+          .lan {
+            margin-top: 7%;
+          }
+          .lan a {
+            margin-right: 20px;
+            color: #fff;
+            font-weight: 600;
+            text-decoration: none;
+            font-size: 14px;
+          }
+        }
+      }
+      &-col-content-2 {
+        width: 50%;
+        &-image {
+          width: 100%;
+          position: relative;
+          display: flex;
+          &-detail {
+            width: 33.33%;
+            padding: 0 8px;
+            box-sizing: border-box;
+            .box {
+              display: inline-block;
+              vertical-align: middle;
+              -webkit-transform: perspective(1px) translateZ(0);
+              transform: perspective(1px) translateZ(0);
+              box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+              -webkit-transition-duration: 0.3s;
+              transition-duration: 0.3s;
+              -webkit-transition-property: transform;
+              transition-property: transform;
+
+              &:hover,
+              &:focus,
+              &:active {
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+              }
+
+              width: 100%;
+              height: 55vh;
+              overflow: hidden;
+              position: relative;
+              height: 100%;
+              top: 20vh;
+              color: #fff;
+              img {
+                height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

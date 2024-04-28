@@ -1,0 +1,17 @@
+$blue-color: #4299e1;
+@mixin hover-translate-up {
+  transition: transform 0.3s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+  }
+}
+.flight-search-info {
+  width: 90%;
+  @include hover-translate-up;
+  border: 2px solid transparent;
+  transition: border-color 0.3s ease;
+  &:hover {
+    border-color: $blue-color;
+  }
+}

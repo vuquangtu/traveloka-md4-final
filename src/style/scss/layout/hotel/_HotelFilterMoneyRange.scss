@@ -1,0 +1,51 @@
+.hotelFilterMoneyRange{
+    height: 150px;
+    width: 298px;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    .row1-text{
+        font-family: inherit;
+        font-size: 0.875rem;
+        margin-bottom: 20px;
+        .subtitle{
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .content{
+            font-size: 0.75rem;
+            color: rgba(104, 113, 118, 1.00);
+            font-weight: 550;
+        }
+    }
+    .row2-input{
+        @extend .row1-text;
+        display: flex;
+        align-items: center;
+        .input{
+            flex: 2;
+            font-size: 0.65rem;
+            font-weight: 500;
+            width: 110px;
+            height: 25.6px;
+            border: 1px solid rgba(104, 113, 118, 1.00);
+            border-radius: 20px;
+            padding: 4px 6px;
+            position: relative;
+            display: flex;
+            input{
+                width: 60px;
+            }
+            p{
+                line-height: 16px;
+                margin-right: 5px;
+            }
+        }
+        .line{
+            flex:1;
+            border: 1px solid rgba(104, 113, 118, 1.00);
+            height: 1px;
+        }
+    }
+}

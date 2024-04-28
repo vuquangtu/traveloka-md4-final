@@ -1,0 +1,217 @@
+.roomContractPreview{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image:linear-gradient(360deg, #5f7ff4 0%, #94c4f5 50%, #b2d4fb 100%); ;
+    &-container{
+        margin: 20px 0;
+        box-shadow: rgba(27, 27, 27, 0.1) 0px 1px 3px 0px;
+        width: 680px;
+        min-height: 300px;
+        background-color: #fff;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        &-header{
+            height: 30px;
+            background-image: linear-gradient(137deg, rgb(26, 47, 120) 0%, rgb(24, 112, 201) 46.1%, rgb(81, 149, 227) 96.84%);
+        }
+        &-group1{
+            padding: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 53px;
+            &-left{
+                display: flex;
+                span{
+                    margin-left: 10px;
+                }
+                &-name{
+                    font-size: 1.3rem;
+                    font-weight: bold;
+
+                }
+                &-point{
+                    font-size: 0.875rem;
+                    color: $traveloka-light-blue;
+                    font-weight: bold;
+                    line-height: 20.8px;
+                }
+                &-booked{
+                    font-size: 0.875rem;
+                    color: rgb(0, 135, 90);
+                    line-height: 20.8px;
+                }
+            }
+            &-right{
+                display: flex;
+            }
+        }
+        &-group2{
+            height: 300px;
+            padding: 16px;
+            display: flex;
+            img{
+                border-radius: 8px;
+                flex:1;
+            }
+        }
+        &-group3{
+            height: 150px;
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-container{
+                min-width: 470px;
+                display: flex;
+                justify-content: space-between;
+                &-left{
+                    width: 200px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.875rem;
+                    border-radius: 8px;
+                    border: 1px solid #dbdbdb;
+                    line-height: 20px;
+                    &-title{
+                        color: rgb(104, 113, 118);
+                    }
+                    &-content{
+                        font-weight: bold;
+                    }
+                }
+                &-right{
+                width: 200px;
+                    height: 100px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 0.875rem;
+                    border-radius: 8px;
+                    border: 1px solid #dbdbdb;
+                    line-height: 20px;
+                
+                    &-title {
+                        color: rgb(104, 113, 118);
+                    }
+                
+                    &-content {
+                        font-weight: bold;
+                    }
+                }
+                &-center{
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    &-nights{
+                        position: absolute;
+                        font-size: 0.875rem;
+                        color: rgb(104, 113, 118);
+                        top:30px;
+                    }
+                    &-line{
+                        height: 1px;
+                        border: 1px solid #dbdbdb;
+                        width: 150px;
+                    }
+                }
+            }
+        }
+        &-group4{
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            &-roomName{
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+            &-person{
+                display: flex;
+                font-size: 0.875rem;
+                height: 20px;
+                line-height: 20px;
+                color: rgb(104, 113, 118);
+            }
+        }
+        &-group5{
+            border-top: 1px solid #dbdbdb;
+            display: flex;
+            justify-content: space-between;
+            height: 130px;
+            align-items: center;
+            line-height: 30px;
+            padding: 16px;
+            &-left{
+                &-row1 {
+                        display: flex;
+                        &-text{
+                            font-weight: bold;
+                        }
+                        span{
+                            display: flex;
+                            align-items: center;
+                        }
+                    }
+                &-row2{
+                    &-text{
+                        font-size: 0.875rem;
+                        color: rgb(104, 113, 118);
+                    }
+                }
+            }
+            &-right{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                &-row1{
+                    &-originPrice{
+                        color: rgb(104, 113, 118);
+                        text-decoration: line-through;
+                    }
+                }
+                &-row2{
+                    &-sellPrice{
+                        color: $traveloka-orange;
+                        font-size: 1.3rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+            
+        }
+        &-group6{
+            padding: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            &-button{
+                flex:1;
+                height: 48px;
+                font-size: 1.3rem;
+                color: #fff;
+                border-radius: 8px;
+                background-color: $traveloka-orange;
+                font-weight: bold;
+                line-height: 48px;
+                text-align: center;
+                &:hover{
+                    cursor: pointer;
+                    opacity: 0.8;
+                }
+            }
+        
+        }
+    }
+}

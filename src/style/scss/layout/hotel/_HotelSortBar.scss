@@ -1,0 +1,41 @@
+.hotelSortBar{
+    width: 100%;
+    height: 52px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px #dbdbdb;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .group{
+        line-height: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        border-radius: 8px;
+        height: 40px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    
+    .text-1{
+        font-size: 0.75rem;
+        font-weight: 530;
+    }
+    .text-2{
+        font-size: 0.875rem;
+        font-weight: bold;
+        color: $traveloka-light-blue;
+    }
+    input:checked+.group {
+            background-color: rgb(236, 248, 255);
+            border: 1px solid rgb(1, 148, 243);
+            
+            .text-1,.text-2{
+                color: $traveloka-light-blue;
+            }
+        }
+}

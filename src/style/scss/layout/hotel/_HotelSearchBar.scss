@@ -1,0 +1,176 @@
+.hotelSearchBar {
+  height: 60px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    90deg,
+    #1a2f78 0%,
+    #1870c9 50%,
+    #5195e3 100%
+  );
+  z-index: 4;
+  position: sticky;
+  top: 60px;
+  .content {
+    height: 100%;
+    width: 1300px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    .item {
+      height: 36px;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 6px;
+      border: none;
+      display: flex;
+      padding: 8px;
+      align-items: center;
+      justify-content: left;
+      position: relative;
+
+      .selectCity {
+        width: 100%;
+        height: 28px;
+        background-color: rgba(0, 0, 0, 0);
+        color: #fff;
+        line-height: 28px;
+        font-weight: bold;
+        &:hover {
+          cursor: pointer;
+        }
+
+        &:focus {
+          outline: none;
+          border: none;
+        }
+
+        option {
+          color: $traveloka-light-blue;
+          font-weight: bold;
+          outline: 1px solid $traveloka-light-blue;
+          border: 1px solid $traveloka-light-blue;
+        }
+      }
+      .calendarContainer {
+        position: absolute;
+        top: 36px;
+
+        .customCalender {
+          border: 1px solid rgba(67, 67, 67, 0.17);
+          background-color: rgba (255, 255, 255, 1);
+          border-radius: 6px;
+          box-shadow: rgba(27, 27, 27, 0.2) 0px 1px 3px 0px,
+            rgba(27, 27, 27, 0.1) 0px 4px 8px 0px;
+          font-size: 1rem;
+          .rdrSelected {
+            border-radius: 100%;
+          }
+        }
+      }
+      .calendarSelected {
+        @extend .selectCity;
+        padding: 5px;
+      }
+      .react-select-container {
+        width: 100%;
+        .react-select__control {
+          @extend .selectCity;
+          outline: none;
+          border: none;
+          .react-select__value-container {
+            outline: none;
+            border: none;
+            color: #fff;
+          }
+        }
+        .react-select__indicators {
+        }
+        &:focus {
+          @extend .selectCity;
+          outline: none;
+          border: none;
+        }
+      }
+      .personAndRoomInput {
+        @extend .calendarSelected;
+      }
+      .selectPersonAndRoomContainer {
+        @extend .calendarContainer;
+        border: 1px solid rgba(67, 67, 67, 0.17);
+        background-color: #fff;
+        border-radius: 6px;
+        left: -2px;
+        box-shadow: rgba(27, 27, 27, 0.2) 0px 1px 3px 0px,
+          rgba(27, 27, 27, 0.1) 0px 4px 8px 0px;
+        font-size: 1rem;
+        width: 290px;
+        height: 150px;
+        padding: 16px;
+        font-weight: 500;
+
+        .personQuantityContainer {
+          display: flex;
+          line-height: 24px;
+          align-items: center;
+          justify-content: space-between;
+          height: 40px;
+          margin-bottom: 20px;
+          .leftItem {
+            display: flex;
+            flex: 1;
+            justify-content: space-between;
+            margin-right: 10px;
+          }
+          .rightItem {
+            @extend .leftItem;
+            margin-right: 0px;
+            margin-left: 10px;
+          }
+          .personQuantityInput {
+            width: 40px;
+            height: 40px;
+            margin: 0 4px;
+            border: 1px solid rgba(205, 208, 209, 1);
+            border-radius: 6px;
+            text-align: center;
+          }
+        }
+        .button {
+          width: 40px;
+          height: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: rgba(247, 249, 250, 1);
+          border-radius: 6px;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .roomQuantityContainer {
+          @extend .personQuantityContainer;
+          .roomQuantityInput {
+            @extend .personQuantityInput;
+          }
+        }
+      }
+    }
+
+    .button {
+      @extend .item;
+      margin-top: 0px;
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      .searchText {
+        color: $traveloka-light-blue;
+        margin-left: 5px;
+      }
+      &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+      }
+    }
+  }
+}

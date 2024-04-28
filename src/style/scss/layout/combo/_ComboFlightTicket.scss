@@ -1,0 +1,205 @@
+.comboFlightTicket{
+    width: 736px;
+    height: 156px;
+    border: 1px solid $traveloka-light-blue;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+
+    &-left{
+        flex: 3;
+        display: flex;
+        padding: 16px;
+        &-left{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            &-row1{
+                display: flex;
+                img{
+                    width: 24px;
+                    height: 24px;
+                }
+                &-brand{
+                    line-height: 24px;
+                    margin-left: 10px;
+                    font-weight: bold;
+                }
+            }
+            &-row2{
+                font-size: 0.75rem;
+                color: rgba(104, 113, 118, 1.00);
+                margin-top: 20px;
+                font-weight: bold;
+                &-border{
+                    border: 1px solid rgba(104, 113, 118, 1.00);
+                    border-radius: 20px;
+                    width: 80px;
+                    height: 24px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0 5px;
+                }
+            }
+            &-row3{
+                margin-top: 20px;
+                color: rgb(0, 135, 90);
+                &-border{
+                    width: 100px;
+                    height: 24px;
+                    border: 1px solid rgb(0, 135, 90);
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    span{
+                        font-size: 0.75rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        &-right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            &-row1{
+                flex: 2;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                &-left{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 0.875rem;
+                    justify-content: space-between;
+                    height: 50px;
+                    &-time{
+                        font-weight: bold;
+                        font-size: 1rem;
+                    }
+                    &-date{
+                        color: rgba(104, 113, 118, 1.00);
+                    }
+                    &-airport{
+                        color: rgba(104, 113, 118, 1.00);   
+                    }
+                }
+                &-center{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 0.75rem;
+                    color: rgba(104, 113, 118, 1.00);
+                    height: 50px;
+                    font-weight: bold;
+                    &-row1{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    &-row2{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100px;
+                        &-from{
+                            width: 8px;
+                            height: 8px;
+                            border-radius: 50%;
+                            border: 1px solid #dbdbdb;
+                        }
+                        &-line{
+                            flex: 1;
+                            background-color: #dbdbdb;
+                            border: 1px solid #dbdbdb;
+                        }
+                        &-to{
+                            width: 8px;
+                            background-color:#dbdbdb ;
+                            height: 8px;
+                            border-radius: 50%;
+                            border: 1px solid #dbdbdb;
+                        }
+                    }
+                    &-row3{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+                &-right {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 0.875rem;
+                    justify-content: space-between;
+                    height: 50px;
+
+                    &-time {
+                        font-weight: bold;
+                        font-size: 1rem;
+                    }
+
+                    &-date {
+                        color: rgba(104, 113, 118, 1.00);
+                    }
+
+                    &-airport {
+                        color: rgba(104, 113, 118, 1.00);
+                    }
+                }
+            }
+            &-row2{
+                flex: 1;
+                color: rgba(104, 113, 118, 1.00);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+    &-right {
+        flex: 1;
+        border-left: 1px solid #dbdbdb;
+        box-shadow: -1px 0 #dbdbdb;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        padding: 16px 16px;
+        justify-content: end;
+        &-unitPrice{
+            color: $traveloka-orange;
+            font-weight: bold;
+            &-text{
+                font-size: 0.75rem;
+                color: rgba(104, 113, 118, 1.00);
+            }
+        }
+        &-coin{
+            margin-top: 10px;
+            font-size: 0.75rem;
+            color: rgba(104, 113, 118, 1.00);
+            display: flex;
+            font-weight: bold;
+        }
+        &-change{
+            margin-top: 30px;
+            &-button{
+                width: 150px;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                color: #fff;
+                font-weight: bold;
+                border-radius: 10px;
+                background-color: $traveloka-light-blue;
+                
+            }
+        }
+    }
+}

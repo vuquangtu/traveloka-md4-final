@@ -1,0 +1,139 @@
+.hotelCard {
+  width: 100%;
+  height: 210px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px #dbdbdb;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  overflow: hidden;
+  &:hover {
+    cursor: pointer;
+    border: 2px solid $traveloka-light-blue;
+    transform: translateY(-10px);
+    transition: linear 0.2s;
+  }
+  .hotelImg {
+    width: 300px;
+    height: 100%;
+    img {
+      border: 1px solid #fff;
+      border-radius: 8px;
+      width: 300px;
+      height: 210px;
+      object-fit: cover;
+      object-position: 50% 50%;
+      overflow-clip-margin: content-box;
+      overflow: clip;
+    }
+  }
+  .hotelInfo {
+    width: 434px;
+    height: 140px;
+    font-size: 0.875rem;
+    padding: 14px 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    background-color: #fff;
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+      .hotelName {
+        font-weight: bold;
+      }
+      .hotelRate {
+        display: flex;
+        align-items: center;
+        span {
+          margin-left: 5px;
+        }
+        .traveloka-logo {
+        }
+        .points {
+          color: $traveloka-light-blue;
+          font-weight: bold;
+        }
+        .numbers {
+          color: rgb(104, 113, 118);
+          font-weight: 540;
+        }
+      }
+    }
+    .row2 {
+      background-color: rgb(236, 248, 255);
+      display: flex;
+      height: 20px;
+      align-items: center;
+      border-radius: 8px;
+      padding: 0px 5px;
+      width: fit-content;
+      span {
+        color: rgb(2, 100, 200);
+        font-size: 0.75rem;
+        margin-left: 5px;
+      }
+    }
+    .row3 {
+      display: flex;
+      font-size: 0.875rem;
+      font-weight: 540;
+      p {
+        margin-left: 5px;
+      }
+    }
+    .row4 {
+      @extend .row2;
+      background-color: rgb(255, 250, 217);
+      font-size: 0.75rem;
+      font-weight: 540;
+      span {
+        color: rgb(177, 84, 0);
+      }
+    }
+  }
+  .hotelPrice {
+    width: 200px;
+    height: 100%;
+    border-left: 1px solid #dbdbdb;
+    box-shadow: -1px 0 #dbdbdb;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px 12px 12px 12px;
+    align-items: flex-end;
+    .row12 {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+    .row1 {
+      color: rgb(104, 113, 118);
+      font-size: 0.875rem;
+      text-decoration: line-through;
+      margin-bottom: 5px;
+    }
+    .row2 {
+      color: $traveloka-orange;
+      font-weight: bold;
+      font-size: 1.3rem;
+    }
+    .row3 {
+      button {
+        width: 105px;
+        height: 32px;
+        color: #fff;
+        font-size: 0.9rem;
+        background-color: $traveloka-orange;
+        font-weight: bold;
+        border-radius: 8px;
+        &:hover {
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,216 @@
+@import "../base/buttons";
+
+$font-app: "Roboto", "Arial", sans-serif;
+
+.flexbox {
+  background-color: #235d9f;
+  font-family: $font-app;
+  padding: 46px;
+  .container {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0;
+    max-width: 500px;
+    margin: auto;
+    .card {
+      border: none;
+      padding: 20px;
+      min-height: 600px;
+      position: relative;
+      box-sizing: inherit;
+
+      h3 {
+        font-size: 1.5rem;
+        text-align: center;
+        position: relative;
+        margin-top: 8px;
+        margin-bottom: 40px;
+        box-sizing: inherit;
+        font-family: $font-app;
+      }
+
+      .card-body {
+        padding: 0;
+
+        .card-title {
+          font-size: 1.25rem;
+          line-height: 24px;
+          font-family: $font-app;
+        }
+
+        .card-text {
+          color: #687176;
+          font-weight: 500;
+          font-size: 0.9rem;
+          margin: 0;
+          margin-bottom: 16px;
+        }
+
+        .login-form {
+          box-sizing: inherit;
+
+          i {
+            position: absolute;
+            color: rgb(83, 107, 140);
+          }
+
+          .form-label {
+            display: block;
+            margin-bottom: 2px;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            color: #4c5052;
+            cursor: default;
+            font-weight: 600;
+          }
+
+          input {
+            background-color: rgb(236, 248, 255);
+            display: block;
+            padding: 7px 0px 7px 29px;
+            font-size: 14px;
+            border: 1px solid #d9dfe8;
+            border-radius: 3px;
+            width: 100%;
+            margin-bottom: 16px;
+            line-height: 20.02px;
+
+            &:focus {
+              outline: none;
+              border-color: #8c9fba;
+            }
+          }
+
+          .icon {
+            padding: 10px;
+            min-width: 40px;
+          }
+
+          .eye-icon {
+            position: absolute;
+            right: 50px;
+            transform: translate(0, -240%);
+            cursor: pointer;
+          }
+
+          .login-form-forgot {
+            width: 100%;
+            display: block;
+            margin: 16px 0 24px;
+            color: rgb(1, 148, 243);
+            font-weight: 600;
+            text-decoration: none;
+          }
+
+          #btn-login {
+            @extend .button;
+          }
+        }
+
+        p {
+          font-family: $font-app;
+          font-size: 0.9rem;
+        }
+
+        .line-spacing {
+          font-size: 14px;
+          margin: 18px 0 16px;
+          width: 100%;
+          border-bottom: 1px dashed #d9dfe8;
+        }
+
+        a {
+          padding-left: 10px;
+          text-decoration: none;
+          color: #5899d6;
+          font-weight: 600;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+
+        .login-with {
+          display: flex;
+          flex-direction: column;
+          margin-top: 10px;
+
+          div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+
+            & a:hover {
+              color: #fff;
+            }
+
+            &:first-child {
+              background-color: transparent;
+              color: #ff5e1f; /* Màu cam */
+              border-color: #ff5e1f; /* Màu cam */
+
+              &:hover {
+                background-color: #ff5e1f;
+                color: #fff;
+              }
+            }
+
+            &:last-child {
+              background-color: transparent;
+              color: #4267b2;
+              border-color: #4267b2;
+
+              &:hover {
+                background-color: #4267b2;
+                color: #fff;
+              }
+            }
+
+            i {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .flexbox {
+    padding: 10px 0;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .card {
+    padding: 20px;
+    min-height: auto;
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .eye-icon {
+    right: 20px;
+    transform: translate(0, -150%);
+  }
+
+  #btn-login {
+    font-size: 14px;
+  }
+}

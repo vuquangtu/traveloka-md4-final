@@ -1,0 +1,122 @@
+.flight-page-search {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 8rem;
+  z-index: 10;
+  &-inner {
+    margin-left: 150px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin-top: -2.3rem;
+    border-radius: 1rem;
+    overflow: visible;
+    height: 18rem;
+    position: relative;
+
+    &-box {
+      width: 100%;
+      padding-top: 0;
+      padding-left: 0;
+      border: 1px solid rgba(0, 0, 255, 0.5);
+
+      &-content-top {
+        background-image: url("https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/1/19d70f54525b8bd167113e49116b5c7d.png");
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+        overflow: hidden;
+
+        &-left {
+          color: #fff;
+          width: 50%;
+          p {
+            margin-left: 40px;
+          }
+        }
+
+        &-right {
+          width: 50%;
+
+          &-button {
+            float: right;
+            margin-right: 30px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            background-color: #fff;
+            color: rgb(1, 148, 243);
+            width: 28%;
+            padding: 5px 20px;
+            border-radius: 0.25rem;
+            white-space: nowrap;
+          }
+        }
+      }
+
+      &-content-mid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 100px;
+
+        &-from {
+          font-size: 1rem;
+          line-height: 1.25rem;
+          margin-left: 20px;
+          color: rgb(30, 41, 59);
+          font-weight: 500;
+
+          &-content {
+            border-width: 1px;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            padding: 0.5rem;
+            border-bottom: 2px solid #8888;
+            svg {
+              flex-shrink: 0;
+            }
+            &-input {
+              width: 7rem;
+              font-size: 16px;
+              outline: 2px solid transparent;
+              outline-offset: 2px;
+              border-style: none;
+            }
+            .dropdown {
+              position: absolute;
+              background-color: #fff;
+              min-width: 590px;
+              max-width: 500px;
+              max-height: 500px;
+              width: 100%;
+              overflow-y: scroll;
+              border: 1px solid #ddd;
+              border-radius: 4px;
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+              z-index: 999;
+              top: auto;
+
+              left: 0;
+              &-option {
+                padding: 10px 20px;
+                cursor: pointer;
+                height: 50px;
+                &:hover {
+                  background-color: #f2f2f2;
+                }
+                span {
+                  font-weight: bold;
+                }
+                small {
+                  display: block;
+                  font-size: 0.8em;
+                  color: #888;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
