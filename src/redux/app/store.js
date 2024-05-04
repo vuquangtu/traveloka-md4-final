@@ -14,6 +14,7 @@ import hotelTeraReducer from "../features/hotelTeraSlice";
 import flightTeraReducer from "../features/flightTeraSlice";
 import usersApi from "../features/usersApi";
 import { setupListeners } from "@reduxjs/toolkit/query";
+import hotelsApi from "../features/hotelsApi";
 
 export const store = configureStore({
   reducer: {
@@ -30,11 +31,13 @@ export const store = configureStore({
     hotelTera: hotelTeraReducer,
     flightTera: flightTeraReducer,
     [usersApi.reducerPath]: usersApi.reducer,
+    [hotelsApi.reducerPath]: hotelsApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware().concat(
       // getProducts.middleware,
-      usersApi.middleware
+      usersApi.middleware,
+      hotelsApi.middleware
     ),
 });
 

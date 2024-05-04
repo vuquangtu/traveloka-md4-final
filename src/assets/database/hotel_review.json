@@ -1,0 +1,30 @@
+[
+  {
+    "id": 3,
+    "comment": "Phòng đẹp, sạch sẽ",
+    "rating_point": 10,
+    "contract_id": 113,
+    "comment_time": "2024-04-05 10:17:11"
+  },
+  {
+    "id": 4,
+    "comment": "Phòng xấu, dơ",
+    "rating_point": 6,
+    "contract_id": 113,
+    "comment_time": "2024-04-05 10:22:02"
+  },
+  {
+    "id": 5,
+    "comment": "Phòng đẹp, sạch sẽ",
+    "rating_point": 10,
+    "contract_id": 113,
+    "comment_time": "2024-04-05 15:17:23"
+  },
+  {
+    "id": 8,
+    "comment": "Phòng rất đẹp, 10 điểm",
+    "rating_point": 10,
+    "contract_id": 121,
+    "comment_time": "2024-04-10 10:32:09"
+  }
+]

@@ -17,6 +17,8 @@ import ComboHotelSearchBar from "../../components/layout/combo/ComboHotelSearchB
 import ComboFlightTicket from "../../components/layout/combo/ComboFlightTicket";
 import FrameComment from "./FrameComment";
 import BackButton from "../../components/buttons/BackButton";
+import { useFetchhotelQuery } from "../../redux/features/hotelsApi";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 function HotelInfo(params) {
   const [seat, setSeat] = useState();
@@ -24,15 +26,28 @@ function HotelInfo(params) {
   const combo = useSelector(selectComboFlight);
   const hotelSearch = useSelector(selectHotel);
   const { id } = useParams();
-  const [hotel, setHotel] = useState({
-    minSellPrice: 0,
-  });
+
   const [rooms, setRooms] = useState([{}]);
   const [stars, setStars] = useState([]);
-  const [images, setImages] = useState([{}]);
+
   const [gallery, setGallery] = useState([{}]);
   const gallaryRef = useRef();
   const [utilities, setUtilities] = useState([{ hotelUtility: { name: "" } }]);
+
+  const { data: hotel, isFetching } = useFetchhotelQuery(id);
+
+  const images = hotel?.imgs;
+
+  useEffect(() => {
+    if (images) {
+      setGallery(
+        images.map((image) => ({
+          original: image,
+        }))
+      );
+    }
+  }, [images]);
+
   useEffect(() => {
     axios
       .get(
@@ -99,9 +114,16 @@ function HotelInfo(params) {
     }
   }, []);
 
+  if (isFetching) {
+    return <h1>Loading...</h1>;
+  }
+
   function handleFullScreen() {
+    console.log(gallaryRef);
     gallaryRef.current.toggleFullScreen();
   }
+  console.log(gallery);
+
   return (
     <>
       <div className="hotelHeader">
@@ -117,7 +139,7 @@ function HotelInfo(params) {
         <div className="container">
           <div className="group1">
             <div className="left">
-              <div className="hotelName">{hotel.hotelName}</div>
+              <div className="hotelName">{hotel?.hotelName}</div>
               <div className="hotel-starGroup">
                 <span className="text">Khách sạn</span>{" "}
                 {stars.map((value, index) => (
@@ -129,12 +151,12 @@ function HotelInfo(params) {
               <div className="location">
                 {" "}
                 <LocationIconBlack />
-                <p>{hotel.address}</p>
+                <p>{hotel?.address}</p>
               </div>
             </div>
             <div className="right">
               <div className="text">Giá/phòng/đêm từ</div>
-              <div className="price">{`${hotel.minSellPrice
+              <div className="price">{`${hotel?.minSellPrice
                 .toString()
                 .replace(/\B(?=(\d{3})+(?!\d))/g, ".")} VND`}</div>
               <a href="#rooms">Chọn phòng</a>
@@ -142,16 +164,16 @@ function HotelInfo(params) {
           </div>
           <div className="group2">
             <div className="left">
-              <img src={images[0].url} alt="" />
+              <img src={images[0]} alt="" />
             </div>
             <div className="right">
-              <img src={images[1] ? images[1].url : images[0].url} alt="" />
-              <img src={images[2] ? images[2].url : images[0].url} alt="" />
-              <img src={images[3] ? images[3].url : images[0].url} alt="" />
-              <img src={images[4] ? images[4].url : images[0].url} alt="" />
-              <img src={images[5] ? images[5].url : images[0].url} alt="" />
+              <img src={images[1]} alt="" />
+              <img src={images[2]} alt="" />
+              <img src={images[3]} alt="" />
+              <img src={images[4]} alt="" />
+              <img src={images[5]} alt="" />
               <div onClick={handleFullScreen} className="last-img">
-                <img src={images[6] ? images[6].url : images[0].url} alt="" />
+                <img src={images[6]} alt="" />
                 <div className="bg">Xem tất cả hình ảnh</div>
               </div>
             </div>
@@ -163,7 +185,7 @@ function HotelInfo(params) {
                 <div className="loadmore">Xem thêm</div>
               </div>
               <div className="row2">
-                <p>{hotel.description}</p>
+                <p>{hotel?.description}</p>
               </div>
             </div>
             <div className="right">

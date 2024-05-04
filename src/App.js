@@ -45,6 +45,7 @@ import BackButton from "./components/buttons/BackButton";
 import OauthGoogle from "./pages/auth/OauthGoogle";
 import GetUser from "./pages/auth/GetUser";
 import FlightTicketPreview from "./components/flights/FlightTicketPreview";
+import InputApi from "./components/inputApi/InputApi";
 
 Modal.setAppElement("#root");
 
@@ -120,6 +121,7 @@ function App() {
         <Routes>
           {/* <Route path="/test" element={<HotelTeraHome/>}/> */}
           <Route path="/" element={<HomePage />} />
+          <Route path="/input-api" element={<InputApi />} />
           <Route path="/oauth-success/:token" element={<OauthGoogle />} />
           <Route path="/user" element={<GetUser />} />
           <Route path="/login" element={<Login />} />
@@ -128,7 +130,7 @@ function App() {
           <Route path="/flight-search" element={<Flight />} />
           <Route path="/search" element={<FlightSearchPage />} />
           <Route path="/home" element={<HomePage />} />
-          
+
           <Route path="/combo" element={<Combo />} />
           <Route
             path="/combo/hotels/:id"
@@ -184,7 +186,10 @@ function App() {
               element={<RoomContractPreview />}
             />
             <Route path="/flight/booking" element={<FlightConfirm />} />
-            <Route path="/flight/booking/:id" element={<FlightTicketPreview/>} />
+            <Route
+              path="/flight/booking/:id"
+              element={<FlightTicketPreview />}
+            />
             <Route
               path="/combo/room/:roomId/flight/:flightId"
               element={<ComboPreview />}
@@ -197,7 +202,6 @@ function App() {
               path="/payment/contract/:contractId"
               element={<RoomContractPreview />}
             />
-
           </Route>
         </Routes>
       </BrowserRouter>

@@ -5,7 +5,6 @@ import "../../style/scss/base/_reset.scss";
 import "../../style/scss/auth/_login.scss";
 import app from "../../firebase/config";
 import { getAuth } from "firebase/auth";
-import { signInWithPopup } from "firebase/auth";
 
 import BackButton from "../../components/buttons/BackButton";
 
@@ -13,8 +12,17 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { AuthContext } from "../../context/AuthProvider";
 import { useContext } from "react";
 
+import * as Yup from "yup";
+import { useFormik } from "formik";
+
+const validationSchema = Yup.object().shape({
+  email: Yup.string()
+    .email("Email không hợp lệ")
+    .required("Vui lòng nhập email"),
+  password: Yup.string().required("Vui lòng nhập mật khẩu"),
+});
+
 function Login() {
-  const [formData, setFormData] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
 
   const [passwordShow, setPasswordShow] = useState(false);
@@ -29,20 +37,7 @@ function Login() {
   const togglePasswordVisiblity = () => {
     setPasswordShow(passwordShow ? false : true);
   };
-  const handleChangeInput = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-  const handleSubmit = async (e) => {
-    e.preventDefault();
 
-    await signInWithEmailAndPassword(auth, formData.email, formData.password)
-      .then((result) => {
-        navigate(from, { replace: true }); // Navigate after addUser completes
-      })
-      .catch((err) => {
-        setError("Mật khẩu không chính xác");
-      });
-  };
   const handleSignInbyGoogle = async (e) => {
     e.preventDefault();
     try {
@@ -68,6 +63,22 @@ function Login() {
     }
   };
 
+  const formik = useFormik({
+    initialValues: {
+      email: "",
+      password: "",
+    },
+    validationSchema: validationSchema, // Optional, if you're using Yup validation
+    onSubmit: async (values) => {
+      try {
+        await signInWithEmailAndPassword(auth, values.email, values.password);
+        navigate(from, { replace: true });
+      } catch (err) {
+        setError("Password Chưa Chính xác");
+      }
+    },
+  });
+
   return (
     <>
       <BackButton home={true} />
@@ -85,7 +96,7 @@ function Login() {
                 Đăng nhập ngay để quản lý đặt phòng và kiểm tra tình trạng phòng
                 trống, cùng đặt vé máy bay một cách thuận lợi!
               </p>
-              <form onSubmit={handleSubmit}>
+              <form onSubmit={formik.handleSubmit}>
                 <div className="login-form">
                   <span className="form-label">
                     Email/Số điện thoại di động
@@ -95,15 +106,21 @@ function Login() {
                       className="form-input pl-10"
                       type="text"
                       name="email"
-                      value={formData.email}
-                      onChange={handleChangeInput}
+                      value={formik.values.email}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
                       placeholder="Điền email hoặc số điện thoại của bạn ở đây"
-                    ></input>
+                    />
+
                     <img
+                      alt=""
                       src="https://icon-library.com/images/email-icon-vector-png/email-icon-vector-png-14.jpg"
                       className="absolute left-2 top-1/2 transform -translate-y-1/2 w-5 h-5"
                     />
                   </div>
+                  {formik.errors.email && formik.touched.email && (
+                    <p className="error-message">{formik.errors.email}</p>
+                  )}
                   <div className="input-wrapper">
                     <span className="form-label">Mật khẩu</span>
                     <div style={{ position: "relative" }}>
@@ -111,12 +128,14 @@ function Login() {
                         className="form-input pl-10"
                         type={passwordShow ? "text" : "password"}
                         name="password"
-                        value={formData.password}
-                        onChange={handleChangeInput}
+                        value={formik.values.password}
+                        onChange={formik.handleChange}
+                        onBlur={formik.handleBlur}
                         placeholder="Điền mật khẩu của bạn ở đây"
                       ></input>
-                      {error && <p className="error-message">{error}</p>}
+
                       <img
+                        alt=""
                         src="https://icon-library.com/images/password-icon-png/password-icon-png-19.jpg"
                         className="absolute left-2 top-1/2 transform -translate-y-1/2 w-4 h-4"
                       />
@@ -194,6 +213,10 @@ function Login() {
                       )}
                     </div>
                   </div>
+                  {formik.errors.password && formik.touched.password && (
+                    <p className="error-message">{formik.errors.password}</p>
+                  )}
+                  {error && <p className="error-message">{error}</p>}
                   <Link
                     to="/forgetpass"
                     className="login-form-forgot"
@@ -213,16 +236,18 @@ function Login() {
               <div className="login-with">
                 <div onClick={handleSignInbyGoogle}>
                   <img
+                    alt=""
                     src="https://icones.pro/wp-content/uploads/2021/02/google-icone-symbole-png-logo-orange-300x300.png"
                     width={20}
                     height={20}
                   />
-                  <a style={{ textDecoration: "none" }}>
+                  <a href="" style={{ textDecoration: "none" }}>
                     Đăng nhập bằng Google
                   </a>
                 </div>
                 <div onClick={handleSignInbyFacebook}>
                   <img
+                    alt=""
                     src="https://www.freepnglogos.com/uploads/facebook-logo-icon/facebook-logo-icon-facebook-logo-png-transparent-svg-vector-bie-supply-15.png"
                     width={10}
                     height={8}

@@ -1,8 +1,11 @@
 import axios from "../../config/privateAxios";
 import React, { useState } from "react";
 
+
+
 function ResetPassWord() {
   const [newPass, setNewPass] = useState("");
+ 
   const [passwordShow, setPasswordShow] = useState(false);
   const togglePasswordVisiblity = () => {
     setPasswordShow(passwordShow ? false : true);

@@ -13,6 +13,9 @@ import {
 import HotelCard from "./components/tera/HotelCard";
 import AuthProvider from "./context/AuthProvider";
 
+
+
+
 SetPrivateAxiosRequest();
 SetPrivateAxiosResponse();
 const root = ReactDOM.createRoot(document.getElementById("root"));

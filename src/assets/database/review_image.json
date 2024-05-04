@@ -1,0 +1,32 @@
+[
+  {
+    "id": 4,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/3e657023-a179-490f-a265-74ab98ddc273webp?alt=media",
+    "review_id": 3
+  },
+  {
+    "id": 5,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/208e0c66-f0b4-47b2-86e6-9222f481806bwebp?alt=media",
+    "review_id": 4
+  },
+  {
+    "id": 6,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1723ec51-b514-4064-9017-b9e87dbcb630webp?alt=media",
+    "review_id": 5
+  },
+  {
+    "id": 7,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c406dd99-7723-47f7-aea9-245325a95195webp?alt=media",
+    "review_id": 5
+  },
+  {
+    "id": 8,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1f5639f8-2893-4db4-822c-fd30166bc7eewebp?alt=media",
+    "review_id": 5
+  },
+  {
+    "id": 11,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/d76ee69c-50e9-43b6-8f04-f6c6e883ad5ejpg?alt=media",
+    "review_id": 8
+  }
+]

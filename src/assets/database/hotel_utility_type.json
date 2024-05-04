@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Tiện nghi phòng"
+  },
+  {
+    "id": 2,
+    "name": "Dịch vụ khách sạn"
+  },
+  {
+    "id": 3,
+    "name": "Tiện nghi chung"
+  },
+  {
+    "id": 4,
+    "name": "Trẻ em và Thú cưng"
+  },
+  {
+    "id": 5,
+    "name": "Các tiện ích lân cận"
+  },
+  {
+    "id": 6,
+    "name": "Ẩm thực"
+  },
+  {
+    "id": 7,
+    "name": "Tiện nghi văn phòng"
+  },
+  {
+    "id": 8,
+    "name": "Kết nối mạng"
+  },
+  {
+    "id": 9,
+    "name": "Tiện nghi công cộng"
+  },
+  {
+    "id": 10,
+    "name": "Vận chuyển"
+  },
+  {
+    "id": 11,
+    "name": "Đưa đón"
+  }
+]

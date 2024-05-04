@@ -1,0 +1,101 @@
+[
+  {
+    "id": 113,
+    "end_date": "2024-04-09",
+    "room_quantity": 2,
+    "start_date": "2024-04-07",
+    "total_money": 1200000,
+    "customer_id": 2,
+    "room_id": 27,
+    "status": "booked",
+    "enable_review": 1
+  },
+  {
+    "id": 114,
+    "end_date": "2024-04-08",
+    "room_quantity": 4,
+    "start_date": "2024-04-07",
+    "total_money": 7800000,
+    "customer_id": 2,
+    "room_id": 31,
+    "status": "booked",
+    "enable_review": 0
+  },
+  {
+    "id": 115,
+    "end_date": "2024-04-08",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 7000000,
+    "customer_id": 2,
+    "room_id": 34,
+    "status": "pending",
+    "enable_review": 0
+  },
+  {
+    "id": 116,
+    "end_date": "2024-04-08",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 360000,
+    "customer_id": 2,
+    "room_id": 39,
+    "status": "booked",
+    "enable_review": 0
+  },
+  {
+    "id": 117,
+    "end_date": "2024-04-08",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 1950000,
+    "customer_id": 2,
+    "room_id": 31,
+    "status": "booked",
+    "enable_review": 0
+  },
+  {
+    "id": 118,
+    "end_date": "2024-04-08",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 300000,
+    "customer_id": 2,
+    "room_id": 27,
+    "status": "pending",
+    "enable_review": 0
+  },
+  {
+    "id": 120,
+    "end_date": "2024-04-09",
+    "room_quantity": 2,
+    "start_date": "2024-04-07",
+    "total_money": 7800000,
+    "customer_id": 2,
+    "room_id": 31,
+    "status": "booked",
+    "enable_review": 0
+  },
+  {
+    "id": 121,
+    "end_date": "2024-04-10",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 2037000,
+    "customer_id": 2,
+    "room_id": 37,
+    "status": "booked",
+    "enable_review": 1
+  },
+  {
+    "id": 122,
+    "end_date": "2024-04-09",
+    "room_quantity": 1,
+    "start_date": "2024-04-07",
+    "total_money": 1200000,
+    "customer_id": 4,
+    "room_id": 28,
+    "status": "pending",
+    "enable_review": 0
+  }
+]

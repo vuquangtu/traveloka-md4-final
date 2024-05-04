@@ -56,6 +56,7 @@ function HotelCard(params) {
             <span className="numbers">
               (
               {hotel.hotelBookedNumbers
+
                 .toString()
                 .replace(/\B(?=(\d{3})+(?!\d))/g, ".")}
               )

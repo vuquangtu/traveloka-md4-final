@@ -1,0 +1,627 @@
+[
+  {
+    "hotelImgId": 93,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/6582206a-69cf-4af9-955d-4fe600b10141webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 94,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4cd51a01-5c16-44f0-bf28-6ea414229de3webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 95,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/84d18d6d-f11e-4874-a264-b7da053d35f8webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 96,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/6896b06b-5295-4bd1-bcae-e43132b00769webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 97,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/dea622e2-d9d8-4017-b9ba-0a7263fc4db3webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 98,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/00db5511-a8fd-4067-8c53-9144864e99b0webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 99,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0e085180-03f8-454d-9de6-ecc49304168fwebp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 100,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/a0e055c0-fd02-4842-b8cc-879813aad024webp?alt=media",
+    "hotelId": 51
+  },
+  {
+    "hotelImgId": 101,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/85d5086c-1b92-4b94-b0bc-65f4573486c2webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 102,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/09e59184-03bf-4f7b-ab13-b453a14ce4c0webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 103,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/8a69f64a-82a9-47ec-8e2e-6a70457f2f23webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 104,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0e2bd8b1-720e-433e-9f5d-eb4e7e4c11a7webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 105,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/2990b485-5862-4edf-9a76-1c9df066dcc4webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 106,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/82400d59-fbb0-4a99-95a0-d1e9ab2c403awebp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 107,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/48606782-b8fb-4ffc-910f-b84445ff6ac7webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 108,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/65d7f1de-ee69-41f6-87e5-bc6a553aaa81webp?alt=media",
+    "hotelId": 52
+  },
+  {
+    "hotelImgId": 109,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4de59392-84de-4997-a605-7240a0990daawebp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 110,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/dabaff67-8067-415f-8962-ce0ebafe7afewebp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 111,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/6a5f51be-888e-4eef-a0eb-9f83eda04526webp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 112,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/450de19d-64e0-443d-add3-ae19502bf809webp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 113,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/562aeb1a-43ee-4f49-9c7f-9a70ffe56a30webp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 114,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/8e2646fa-77d0-4c27-be98-d53dd4b83418webp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 115,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/37ccc40a-056b-485a-9339-e562037d8de0webp?alt=media",
+    "hotelId": 53
+  },
+  {
+    "hotelImgId": 116,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/eff32941-62c6-433b-802b-564b89d0a9a0webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 117,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/41dd1545-cb2f-4f06-ad10-e14bd73c4f67webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 118,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4946c9a8-6fed-4cf8-bc19-41924568df03webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 119,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4826f46f-a126-49d3-ae52-d76c4e9425bbwebp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 120,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/12135a54-b4a9-4703-b01e-b4f48d159174webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 121,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/357476f7-eee7-46b7-a3d8-7f9e223581a9webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 122,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/b653428d-a5ce-427c-9ed2-de3f4e182a74webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 123,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/8fda0fb0-38ee-4849-bcf9-0852cd723c47webp?alt=media",
+    "hotelId": 54
+  },
+  {
+    "hotelImgId": 124,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1b781c6b-dc2a-4b4c-8fdd-1c167f6aa683webp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 125,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/8a4c27a3-bc6a-456f-be84-2779427d9ff7webp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 126,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1d3e6b11-13d1-45e1-83f8-591fbf1cf4acwebp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 127,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/ad973205-a558-4283-98c5-de14947ab569webp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 128,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/bfc2e75c-2d6e-4575-bdb6-875f100157f8webp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 129,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/7f0665b7-4624-4e0d-8524-817c964619dbwebp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 130,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/23b76994-0997-47d1-8f9e-e49f8ca5ebacwebp?alt=media",
+    "hotelId": 55
+  },
+  {
+    "hotelImgId": 131,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/557558e9-00c5-4048-809e-a358b78f3d5dwebp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 132,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/db869592-e45b-4ad8-99fd-bd5f7c41164bwebp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 133,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c7bc0b46-4783-4c7b-9913-4b597258bbaewebp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 134,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/ade26ae3-1ba1-41e5-9059-9c326361f3c3webp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 135,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4c666949-38c2-4535-a66f-8f0af4de627bwebp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 136,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/9ef8c005-4ba2-482b-a49a-9fe3d2444c1bwebp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 137,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/a9450eb5-8634-4781-a3f0-3ffafafeaf92webp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 138,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/52fc4cc9-ead0-4fdd-8990-a544a8c29623webp?alt=media",
+    "hotelId": 56
+  },
+  {
+    "hotelImgId": 139,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/b481b972-8ed1-448c-95a0-b380962ecbcfwebp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 140,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/bf18bc5d-a053-48f3-80f8-44f82bff36e6webp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 141,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/cca3167f-b721-4f2f-894e-629f1ee8f0c4webp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 142,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c28c8ee2-e3b1-4034-97b3-96f75bcf8c21webp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 143,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/d5b2dac3-0594-448c-b67f-e822c5f74034webp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 144,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1086aa7d-067a-404d-b96c-ff841ac21fd2webp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 145,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0a20f2cb-7270-4cd6-a339-83f9dabb395cwebp?alt=media",
+    "hotelId": 57
+  },
+  {
+    "hotelImgId": 146,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/94dcf7f3-6e88-4dcf-a2ac-09846b4c5629webp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 147,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/7183bdc8-0730-4605-8110-126cd97f4641webp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 148,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/e1c4f489-bdd7-4035-b0e8-4f9e4a47a8f3webp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 149,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/27b7909b-03f4-411a-8f2d-0c544781ae0bwebp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 150,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/32835699-e6bb-45e1-8c1b-67d05d4e7fc9webp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 151,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/092f3737-ed7a-4e90-8ac3-3f8e29c6738ewebp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 152,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/66fc2a32-9e50-4466-8954-00c1779a290dwebp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 153,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/b86c6091-307c-47b8-8c28-8aa1a68bce0dwebp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 154,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1e93fcb6-3123-4d71-9d6d-a42ab733af2awebp?alt=media",
+    "hotelId": 58
+  },
+  {
+    "hotelImgId": 155,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/ce866de7-f4e9-4adc-9531-e51ea9a7b58fwebp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 156,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/58fc14be-405f-458b-8982-5874a4e549cdwebp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 157,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/6a525b8b-15f2-461b-9e04-4cbf9affc229webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 158,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0f9d47ae-59c4-41e3-90cd-1775d8d56121webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 159,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0d3d0279-fdf2-402e-bdcf-1c36b6d417b6webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 160,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4df1b748-7743-48a6-a548-24a732897822webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 161,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/68462a73-ecc2-487a-b6d9-9981369514cewebp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 162,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/fbb489cf-3098-44d8-a345-6d1aa4fed909webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 163,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4b4b5369-bfef-4e00-a380-b2c622dba6bfwebp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 164,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/e79b56e0-55c6-4efb-a8c5-341e72725f82webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 165,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/dccfe126-68b4-433f-bad0-9b8f2a548c18webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 166,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/d5ecd9b0-2990-4a71-b2f8-632e6f44a8f0webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 167,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/7ede87b5-5364-4493-8216-59b927e0bed9webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 168,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/68f28b39-51db-46ac-bbe8-a7f250c5cdb1webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 169,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/849b8b1a-b65f-497a-858e-d3c338c02744webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 170,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c36310ba-db41-47fe-aa9d-3d2dec542cc4webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 171,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/9629a79b-a552-40e1-98c5-0049adcda5f6webp?alt=media",
+    "hotelId": 59
+  },
+  {
+    "hotelImgId": 172,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/0fa0584f-a25f-474b-a986-f50b417f9995webp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 173,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/7136b4f7-0497-46c2-86c4-a94cc651ba5cwebp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 174,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/23776a98-62e0-438c-8f9f-e8cd24ad7bdawebp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 175,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/bd3e2915-f222-4326-921d-d03073af746dwebp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 176,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/2715b93c-db12-4961-9fd9-049413612a84webp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 177,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4889f0e1-735c-439e-b572-cdfb562a9f6cwebp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 178,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/be4db5ca-407f-4111-ab16-05fb69655728webp?alt=media",
+    "hotelId": 60
+  },
+  {
+    "hotelImgId": 179,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/783a7671-5b4b-4494-bd27-fb0910521776webp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 180,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/4104ba8a-5461-469a-9ec4-4d6d27cb9fb8webp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 181,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c4f46e5a-ca9e-4d20-9953-4476f26f792fwebp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 182,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/f2020226-8a05-4658-a720-896b3a2091fawebp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 183,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/76a4aff4-15ec-4d95-b17e-c61e4824fd3ewebp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 184,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/8c4f245a-e04f-4765-a0b4-ba002169e28cwebp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 185,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/a492eb3c-bda6-4a49-9d71-85fb97598788webp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 186,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/f070624e-3cc6-42c9-bc82-0fadf0722240webp?alt=media",
+    "hotelId": 61
+  },
+  {
+    "hotelImgId": 187,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/abe4255a-25c6-498f-9ff7-305bd1c3bebbwebp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 188,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/99bf208d-16a4-4377-af19-9d61b3ab07cewebp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 189,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/641e4bec-6ce2-43a1-835b-f017ea3884b5webp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 190,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/1526dfed-7890-4cc7-b4ab-9306ff56f4a9webp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 191,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/12ee9620-58db-4859-bebe-b408aec3eee3webp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 192,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/685d4c26-8b95-4cad-ad2b-5cffd8bc2958webp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 193,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/ef7ea612-44d7-47f3-9744-811616c3f5ddwebp?alt=media",
+    "hotelId": 62
+  },
+  {
+    "hotelImgId": 194,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/2f1f9991-5901-483d-8d3b-7d65220b982ewebp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 195,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/f44d7dcc-b1c2-45da-ad8a-c75bde671701webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 196,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/6a9d0293-9b8e-412e-9ad2-d26d56b30cd7webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 197,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/d482f83a-0bbf-4eaa-bccb-70445739bad1webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 198,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/f22c7912-cb3f-4e5a-8355-8701faa91007webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 199,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/19faecf4-4adf-41fa-aae6-ffa8f782763bwebp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 200,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/c228bd3c-6192-4566-99d2-5abea99c4cd3webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 201,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/dce6b48a-4eef-45d5-a819-c4786d7c0015webp?alt=media",
+    "hotelId": 63
+  },
+  {
+    "hotelImgId": 202,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/5b75222d-64a1-4e71-b1e9-af50a782c387webp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 203,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/3d1529a1-2d20-49de-80c9-cbcdb8be89c6webp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 204,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/197e5529-3585-4122-aacb-71defcb54f5awebp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 205,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/175ded21-43ae-46a0-a350-47c98ce5e849webp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 206,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/068d6fdf-b09a-4c8f-9b23-e1db1fc7b7c7webp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 207,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/329b835e-8032-4f76-a7f1-f6fea49ab9ccwebp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 208,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/269bf803-9f19-4853-ae0c-960a29b54e1dwebp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 209,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/759c0280-8240-49e7-90d7-64ac7b8de708webp?alt=media",
+    "hotelId": 64
+  },
+  {
+    "hotelImgId": 210,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/406b0236-95d8-42f8-a52f-a37822479ad6webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 211,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/a218535e-0f73-4750-b364-87934d4be0e5webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 212,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/849c2a53-63bd-40d7-bfe4-6b13e88e27f9webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 213,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/629269b6-660a-4f5b-847e-afe22b04e2a4webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 214,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/d683f89f-e5b1-4970-8328-8695b5246bfcwebp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 215,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/b91c763b-331a-446e-a259-4d39726ba774webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 216,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/ffe6b1f6-fa30-4540-bb74-6d66c51f6b52webp?alt=media",
+    "hotelId": 65
+  },
+  {
+    "hotelImgId": 217,
+    "url": "https://firebasestorage.googleapis.com/v0/b/mazii-dictionary.appspot.com/o/e119efcc-fe94-4a0a-a5b7-ce688d8da0cdwebp?alt=media",
+    "hotelId": 65
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Máy lạnh",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Quầy bar mini",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Bàn làm việc",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Rèm cửa / màn che",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Nước đóng chai miễn phí",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 6,
+    "name": "TV",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 7,
+    "name": "Két an toàn tại phòng",
+    "room_utility_type_id": 1
+  },
+  {
+    "id": 8,
+    "name": "Phòng tắm riêng",
+    "room_utility_type_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Bộ vệ sinh cá nhân",
+    "room_utility_type_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Áo choàng tắm",
+    "room_utility_type_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Máy sấy tóc",
+    "room_utility_type_id": 2
+  },
+  {
+    "id": 12,
+    "name": "Vòi tắm đứng",
+    "room_utility_type_id": 2
+  },
+  {
+    "id": 13,
+    "name": "Bồn tắm",
+    "room_utility_type_id": 2
+  }
+]

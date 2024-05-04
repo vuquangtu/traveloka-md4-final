@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Truyền hình cáp",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Bàn làm việc",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Máy sấy tóc",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 4,
+    "name": "Két an toàn trong phòng",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 5,
+    "name": "Minibar",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 6,
+    "name": "Phòng tắm vòi sen",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 7,
+    "name": "TV",
+    "hotel_utility_type_id": 1
+  },
+  {
+    "id": 8,
+    "name": "Dịch vụ thu đổi ngoại tệ",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 9,
+    "name": "Lễ tân 24h",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 10,
+    "name": "Bảo vệ 24 giờ",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 11,
+    "name": "Dịch vụ trả phòng muộn",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 12,
+    "name": "Dịch vụ giặt ủi",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 13,
+    "name": "Dịch vụ hỗ trợ đặt Tour",
+    "hotel_utility_type_id": 2
+  },
+  {
+    "id": 14,
+    "name": "Máy lạnh",
+    "hotel_utility_type_id": 3
+  },
+  {
+    "id": 15,
+    "name": "Phòng gia đình",
+    "hotel_utility_type_id": 3
+  },
+  {
+    "id": 16,
+    "name": "Phòng không hút thuốc",
+    "hotel_utility_type_id": 3
+  },
+  {
+    "id": 17,
+    "name": "Sân thượng/sân hiên",
+    "hotel_utility_type_id": 3
+  },
+  {
+    "id": 18,
+    "name": "Dịch vụ giữ trẻ",
+    "hotel_utility_type_id": 4
+  },
+  {
+    "id": 19,
+    "name": "Dịch vụ giữ thú cưng",
+    "hotel_utility_type_id": 4
+  },
+  {
+    "id": 20,
+    "name": "Máy ATM/Ngân hàng",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 21,
+    "name": "Thẩm mỹ viện",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 22,
+    "name": "Cửa hàng thực phẩm",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 23,
+    "name": "Hiệu làm tóc",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 24,
+    "name": "Giặt ủi",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 25,
+    "name": "Cửa hàng",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 26,
+    "name": "Siêu thị",
+    "hotel_utility_type_id": 5
+  },
+  {
+    "id": 27,
+    "name": "Bữa sáng với thực đơn gọi món",
+    "hotel_utility_type_id": 6
+  },
+  {
+    "id": 28,
+    "name": "Bữa sáng",
+    "hotel_utility_type_id": 6
+  },
+  {
+    "id": 29,
+    "name": "Bữa sáng món tự chọn",
+    "hotel_utility_type_id": 6
+  },
+  {
+    "id": 30,
+    "name": "Bữa sáng (thu phí)",
+    "hotel_utility_type_id": 6
+  },
+  {
+    "id": 31,
+    "name": "Tiệc liên hoan",
+    "hotel_utility_type_id": 6
+  },
+  {
+    "id": 32,
+    "name": "Dịch vụ văn phòng",
+    "hotel_utility_type_id": 7
+  },
+  {
+    "id": 33,
+    "name": "Các tiện nghi văn phòng",
+    "hotel_utility_type_id": 7
+  },
+  {
+    "id": 34,
+    "name": "Máy photocopy",
+    "hotel_utility_type_id": 7
+  },
+  {
+    "id": 35,
+    "name": "Trung tâm dịch vụ hành chánh/văn phòng",
+    "hotel_utility_type_id": 7
+  },
+  {
+    "id": 36,
+    "name": "Wifi (miễn phí)",
+    "hotel_utility_type_id": 8
+  },
+  {
+    "id": 37,
+    "name": "Cà phê/trà tại sảnh",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 38,
+    "name": "Thang máy",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 39,
+    "name": "Nhà hàng",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 40,
+    "name": "Dịch vụ dọn phòng",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 41,
+    "name": "Két an toàn",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 42,
+    "name": "WiFi tại khu vực chung",
+    "hotel_utility_type_id": 9
+  },
+  {
+    "id": 43,
+    "name": "Đưa đón trong khu vực (thu phí)",
+    "hotel_utility_type_id": 10
+  },
+  {
+    "id": 44,
+    "name": "Dịch vụ cho thuê xe đạp",
+    "hotel_utility_type_id": 10
+  },
+  {
+    "id": 45,
+    "name": "Giữ xe đạp",
+    "hotel_utility_type_id": 10
+  },
+  {
+    "id": 46,
+    "name": "Cho thuê xe hơi",
+    "hotel_utility_type_id": 10
+  },
+  {
+    "id": 47,
+    "name": "Đưa đón sân bay (thu phí)",
+    "hotel_utility_type_id": 11
+  },
+  {
+    "id": 48,
+    "name": "Đón khách tại ga tàu",
+    "hotel_utility_type_id": 11
+  }
+]

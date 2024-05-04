@@ -23,6 +23,7 @@ import {
 } from "../redux/features/usersApi";
 
 import { toast } from "react-toastify";
+import { useFetchhotelsQuery } from "../redux/features/hotelsApi";
 
 const AuthContext = createContext();
 
@@ -45,6 +46,7 @@ const AuthProvider = ({ children }) => {
   const randomID = uuid();
 
   const { data: users } = useFetchusersQuery();
+
 
   const [addUser] = useAdduserMutation();
 
